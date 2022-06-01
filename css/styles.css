@@ -40,8 +40,6 @@ img {
 }
 /* start header */
 .header {
-    padding-top: 16px;
-    padding-bottom: 17px;
     border-bottom: 1px solid var(--heder-border-color);
 }
 .header .container {
@@ -58,7 +56,10 @@ img {
 }
 .header-link {
     display: block;
-    padding: 15px 30px;
+    padding: 32px 0;
+}
+.header-item:not(:last-child) {
+    margin-right: 50px;
 }
 .header-connection{
     display: flex;
@@ -145,9 +146,6 @@ img {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-.about {
-    
 }
 .about-list {
     display: flex;
